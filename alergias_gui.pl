@@ -17,7 +17,7 @@ resource(img_principal, image, image('img_principal_2.jpg')).
 resource(portada, image, image('portada_2.jpg')).
 
 %%nasal
-resource(nasal, image, image('falta_imagen.jpg')).
+resource(respiratoria_nasal, image, image('falta_imagen.jpg')).
 resource(estornudo, image, image('estornudo.jpg')).
 resource(congestion_nasal, image, image('congestion_nasal.jpg')).
 resource(picazon_nariz, image, image('picazon_nariz.jpg')).
@@ -25,13 +25,66 @@ resource(secrecion_nasal, image, image('secrecion_nasal.jpg')).
 resource(sequedad, image, image('sequedad.jpg')).
 
 %%pulmonar
+resource(respiratoria_pulmonar, image, image('falta_imagen.jpg')).
 resource(inf_irr_pulmones, image, image('inf_irr_pulmones.jpg')).
 resource(inf_irr_bronquios, image, image('inf_irr_bronquios.jpeg')).
 resource(tos_seca, image, image('tos_seca.jpg')).
 resource(sibilancia, image, image('sibilancia.jpg')).
 resource(dif_respirar, image, image('dif_respirar.jpg')).
+resource(presion_pecho, image, image('falta_imagen.jpg')).
+
+resource(respiratoria_rinits, image, image('falta_imagen.jpg')).
+resource(respiratoria_asma_bronquial, image, image('falta_imagen.jpg')).
+resource(cutanea_dermatitis, image, image('falta_imagen.jpg')).
+resource(cutanea_dermatitis_atopica, image, image('falta_imagen.jpg')).
+resource(cutanea_urticaria, image, image('falta_imagen.jpg')).
+resource(cutanea_angiodema, image, image('falta_imagen.jpg')).
+resource(cutanea_anafilaxia, image, image('falta_imagen.jpg')).
+resource(cutanea_clasica_general, image, image('falta_imagen.jpg')).
+resource(digestiva_tipo_1, image, image('falta_imagen.jpg')).
+resource(digestiva_tipo_2, image, image('falta_imagen.jpg')).
+resource(digestiva_tipo_3, image, image('falta_imagen.jpg')).
+resource(digestiva_tipo_4, image, image('falta_imagen.jpg')).
+resource(digestiva_tipo_5, image, image('falta_imagen.jpg')).
+resource(mascota_respiratoria, image, image('falta_imagen.jpg')).
+resource(mascota_cutanea, image, image('falta_imagen.jpg')).
+
+%cutanea
+resource(ronchas_rojas, image, image('falta_imagen.jpg')).
+resource(ronchas_grises, image, image('falta_imagen.jpg')).
+resource(ampollas, image, image('falta_imagen.jpg')).
+resource(ronchas_parpados, image, image('falta_imagen.jpg')).
+resource(sensacion_hinchazon, image, image('falta_imagen.jpg')).
+resource(protuberancia_roja, image, image('falta_imagen.jpg')).
+resource(protuberancia_blanca, image, image('falta_imagen.jpg')).
+resource(verdugones, image, image('falta_imagen.jpg')).
+resource(picazon_aguda, image, image('falta_imagen.jpg')).
+resource(inflamacion_manos, image, image('falta_imagen.jpg')).
+resource(inflamacion_pies, image, image('falta_imagen.jpg')).
+resource(inflamacion_genitales, image, image('falta_imagen.jpg')).
+resource(dolor_abdominal, image, image('falta_imagen.jpg')).
+resource(diarrea, image, image('falta_imagen.jpg')).
+resource(mareo, image, image('falta_imagen.jpg')).
+resource(urticaria, image, image('falta_imagen.jpg')).
+resource(vomito, image, image('falta_imagen.jpg')).
+resource(perdida_conocimiento, image, image('falta_imagen.jpg')).
+resource(enrojecimiento, image, image('falta_imagen.jpg')).
+resource(erupciones, image, image('falta_imagen.jpg')).
+resource(inflamacion_cuerpo, image, image('falta_imagen.jpg')).
+resource(descamacion, image, image('falta_imagen.jpg')).
+
+%digestivas
+resource(fiebre_heno, image, image('falta_imagen.jpg')).
+resource(picazon_ojos, image, image('falta_imagen.jpg')).
+resource(picazon_paladar, image, image('falta_imagen.jpg')).
+resource(inflamacion_lengua, image, image('falta_imagen.jpg')).
+resource(nauseas, image, image('falta_imagen.jpg')).
+
+%mascotas
+resource(mucosidad_liquida, image, image('falta_imagen.jpg')).
 
 %%ojos
+resource(respiratoria_ojos, image, image('falta_imagen.jpg')).
 resource(ojos_inflamados, image, image('ojos_inflamados.jpg')).
 resource(ojos_inyectados_sangre, image, image('ojos_inyectados_sangre.jpg')).
 resource(ojos_irritados, image, image('ojos_irritados.jpg')).
